@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Bag | URBAN FIT</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar premium-navbar">
+        <div class="container">
+
+            <a class="navbar-brand brand-logo" href="index.html">
+                URBAN<span>FIT</span><small>.</small>
+            </a>
+
+            <a href="shop.html" class="btn btn-outline-dark">
+                Continue Shopping
+            </a>
+
+        </div>
+    </nav>
+
+    <!-- Cart Header -->
+    <section class="cart-header">
+        <div class="container">
+            <span class="section-label">YOUR SELECTIONS</span>
+            <h1>Your Bag<span>.</span></h1>
+            <p>Review your essentials before checkout.</p>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section class="cart-section">
+        <div class="container">
+
+            <div class="row g-5">
+
+                <!-- Products -->
+                <div class="col-lg-8">
+                    <div id="cart-items"></div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="col-lg-4">
+
+                    <div class="cart-summary">
+
+                        <h2>Order Summary</h2>
+
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span id="cart-subtotal">₹0</span>
+                        </div>
+
+                        <div class="summary-row">
+                            <span>Shipping</span>
+                            <span>Calculated later</span>
+                        </div>
+
+                        <hr>
+
+                        <div class="summary-row summary-total">
+                            <span>Total</span>
+                            <span id="cart-total">₹0</span>
+                        </div>
+
+                        <button
+                            type="button"
+                            class="checkout-btn"
+                            id="checkout-button">
+                            CONTINUE TO CHECKOUT ↗
+                        </button>
+
+                        <p class="cart-note">
+                            Demo store — no real payment is processed.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
